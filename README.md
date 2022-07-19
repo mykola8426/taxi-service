@@ -29,24 +29,16 @@ ___
 
 ### 🚀  How to run:
 ___
+To correctly use this service you have to install MySQL and Apache Tomcat version 9.
 1. Clone this project to your environment:
-   1. Copy reference of this code;
-   2. In your environment find 'File->new->Project from version control'.
-   3. Paste url.
-   4. Press 'clone'.
-2. Create schema and tables in Workbench(Instruction in init_db.sql file).
-   1. Copy all from 'init_db.sql' file in resources directory.
-   2. Open Workbench.
-   3. Enter to your connection.
-   4. Find 'File -> New Query Tab' or Press 'Ctrl + T'.
-   5. Paste copied information.
-   6. Press 'Execute'.
-3. Write login and password to your db into fields login and password in ConnectionUtil class
+2. Use /resources/init_db.sql for creating schema and tables
+3. Write login and password to your db into fields login and password in /util/ConnectionUtil.java class
 4. Add Tomcat Server configure:
-   1. Press 'edit configuration' near run button.
-   2. Select the plus in the upper left corner.
-   3. Find Tomcat Server and choose local.
-   4. Press fix button in lower right corner.
-   5. Choose 'taxi-service:war exploded'.
-   6. Click 'apply' and 'Ok'.
+   * Press 'edit configuration' near run button.
+   * Select the plus in the upper left corner.
+   * Find Tomcat Server and choose local.
+   * Press fix button in lower right corner.
+   * Choose 'taxi-service:war exploded'.
+   * Click 'apply' and 'Ok'.
 5. Run Tomcat (Press 'run' or 'debug' button).
+6. Go ahead and use it!
