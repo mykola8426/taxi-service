@@ -17,7 +17,7 @@ ___
 * display list of all drivers;
 * display list of all drivers of the selected car;
 
-### 👽 Technologies used:
+### 🖥 Technologies used:
 ___
 * JDK 11
 * Maven 3.8.6
